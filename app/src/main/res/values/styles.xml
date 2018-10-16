@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MainHeaderText">
+        <item name="android:gravity">center</item>
+        <item name="android:text">BHARAT TYRES</item>"
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/text_main_header</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainDescription">
+        <item name="android:text">(The Unit of Bharat Tyres (Gujrat) Pvt. Ltd.)</item>"
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/text_main_description</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:foregroundGravity">right</item>
+        <item name="android:background">@drawable/bg_button_shape</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="dialogTitleTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ColorGray</item>
+        <item name="android:textSize">@dimen/text_tile_contents</item>
+        <item name="android:padding">@dimen/nav_header_vertical_spacing</item>
+    </style>
+
+    <style name="normalButtonStyle">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

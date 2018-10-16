@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.logicalwings.btapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.PasswordActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SearchProductActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_search_product"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OrderReviewActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_order_review"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MyOrderDetailsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_my_order_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CategoryFirstActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_category_first"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CategorySecondActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_category_second"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CartActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_cart"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ContactUsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SendContactMailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_send_contact_mail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ProfileImageActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_profile_image"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SplashScreenActivity" />
+        </activity>
+
+        <receiver android:name=".utils.AutoReadSMSReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="dcbd5552c82b9d07973bc9e8478e8ac95032775f" />
+    </application>
+
+</manifest>

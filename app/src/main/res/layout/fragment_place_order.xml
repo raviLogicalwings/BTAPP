@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/replaceView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#50ffffff">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_rounded"
+                android:padding="17sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_rounded"
+                android:paddingBottom="10sp"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:text="TRUCK"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/text_category_first"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/loader" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#50ffffff">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_rounded"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_rounded"
+                android:paddingBottom="10sp"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:text="NON TRUCK"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/text_category_second"/>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

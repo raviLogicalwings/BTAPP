@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/replaceView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/place_order2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50ffffff">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_rounded"
+                    android:paddingBottom="10sp"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingTop="10sp"
+                    android:text="PLACE ORDER"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:id="@+id/text_place_order"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.34"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/my_order2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50ffffff">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_rounded"
+                    android:paddingBottom="10sp"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingTop="10sp"
+                    android:text="MY ORDERS"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:id="@+id/text_orders"
+                    android:gravity="center"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/favourites2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50ffffff">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_rounded"
+                    android:paddingBottom="10sp"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingTop="10sp"
+                    android:text="FAVOURITES"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:id="@+id/text_favourites"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/loader" />
+</RelativeLayout>

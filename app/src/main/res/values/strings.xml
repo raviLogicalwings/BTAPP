@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">BTAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="enter_email">Enter Email or Contact</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_next">Next</string>
+    <string name="enter_login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="enter_confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BHARAT TYRES</string>
+    <string name="nav_header_subtitle">bharat.tyres@bharat.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="home_activity">BHARAT TYRES</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="forgot_submit">Submit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="old_password">Old Password</string>
+    <string name="password">Password</string>
+    <string name="cnf_password">Confirm Password</string>
+
+    <string name="indian_rupees">₹ 3000.00</string>
+    <string name="rupees">₹</string>
+
+    <!-- menu items -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="product_name">Product Name:</string>
+    <string name="product_code">Product Code</string>
+    <string name="ceat_tyres">CEAT TYRES</string>
+    <string name="ceatcode123">CEATCODE1</string>
+    <string name="quantity">Quantity:</string>
+    <string name="_15000_00">150.00</string>
+    <string name="change_password">Change Password</string>
+    <string name="my_cart">My Cart</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="view_order">View Order</string>
+    <string name="title_activity_search_product">SearchProductActivity</string>
+    <string name="email_or_mobile">email or mobile</string>
+    <string name="name">Name</string>
+    <string name="no_internet_connection">No Internet connection!</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="update_quantity">Update Quantity</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="title_activity_order_review">OrderReviewActivity</string>
+    <string name="title_activity_my_order_details">MyOrderDetailsActivity</string>
+    <string name="title_activity_category_first">CategoryFirstActivity</string>
+    <string name="title_activity_category_second">CategorySecondActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_send_contact_mail">SendContactMailActivity</string>
+    <string name="title_activity_profile_image">ProfileImageActivity</string>
+    <string name="still_not_received_otp">Still not received try again!</string>
+    <string name="second_remaining">Seconds remaining:</string>
+</resources>
